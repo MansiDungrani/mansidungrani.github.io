@@ -1,0 +1,37 @@
+html{
+    height: 100vh;
+}
+body, main, .bio{
+    height: inherit;
+    margin: 0;
+    font-family: sans-serif;
+}
+.bio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-box{
+    max-width: 600px;
+    background-color: #9879a0;
+}
+.details{
+    text-align: center;
+    margin: 40px;
+    background: #482451;
+    padding: 20px;
+}
+.grettings{
+    color: #fff;
+}
+h4{
+    margin: 0;
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+p{
+    color: #fff;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+}
